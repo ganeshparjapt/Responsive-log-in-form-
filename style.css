@@ -1,0 +1,110 @@
+/* basic styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*styling .main-container*/
+.main-container{
+    background-image: url(img/bh.svg.webp);
+    background-size: cover;
+    height: 100vh;
+}
+.right{
+    position: absolute;
+    width: 360px;
+    top: 5%;
+    left: 60%;
+    height: 580px;
+    top: calc(50%-580px/2);
+    background: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+}
+.title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 120px;
+    align-items: center;
+    font-family: "Sansation",Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+.logo{
+    width: 120px;
+    height: 56px;
+    
+}
+input[type="email"],
+input[type="password"]{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 25px;
+    color: #02070e;
+    /* padding: 20px10px30px5px; */
+    border: 2px solid rgb(148, 108, 108);
+    width: 280px;
+    height: 45px;
+    margin: 15px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif
+}
+::placeholder{
+    color: #85b6ff;
+    font-size: 18px;
+}
+.icon{
+    position: absolute;
+    padding: 24px 32px;
+    height: 75px;
+    width: 90px;
+}
+input[type="checkbox"]{
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    height: 18px;
+    width: 18px;;
+    margin: 20px;
+}
+button{
+    width: 300px;
+    height: 45px;
+    left: 1273px;
+    top: 780px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+    color: aqua;
+    border: none;
+    border-radius: 20px;
+    background-color: #0f3d83;
+    margin: 20px;
+}
+.link{
+    text-align: center;
+    display: block;
+    margin: 18px;
+    color: #42669c;
+    font-weight: bold;
+    text-decoration: none;
+}
+@media only screen and(max-width:500px){
+    .main-container{
+        background: linear-gradient(1350.4);
+    }
+        .right{
+            left: calc(68% - 500px /2);
+        }
+    
+}
